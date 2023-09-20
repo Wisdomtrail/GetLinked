@@ -1,0 +1,306 @@
+.mainContainer {
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(
+      ellipse 12% 25% at 23% 20%, 
+      rgba(79, 49, 145, 0.5), 
+      transparent
+    );
+    background-color: rgb(20, 13, 40);
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.divider {
+    width: 100%;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.3); 
+    margin: 10px 0; 
+}
+.divider1{
+    width: 100%;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.3); 
+}
+.topNav {
+  margin-top: 20px;
+  color: white;
+  display: flex;
+}
+.linked{
+    color: rgb(189, 47, 229);
+}
+.header{
+    margin-right: 300px;
+}
+
+.topNav a {
+    margin-left: 80px;
+    margin-top: 19px;
+    color: white;
+    text-decoration: none;
+}
+.register {
+    margin-left: 70px;
+    margin-top: 10px;
+    width: 110px;
+    height: 40px;
+    background: linear-gradient(to right, #E735C8, #B138E9);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s; 
+}
+.register:hover {
+    background: linear-gradient(to right,#B138E9, #E735C8);
+}
+.header2{
+    color: white;
+    margin-left: 500px;
+    font-size: 35px;
+}
+.star{
+    margin-right: 600px;
+}
+.star2{
+    margin-right: 200px;
+    width: 20px;
+}
+.imageContainer{
+    display: flex;
+    background: radial-gradient(
+      ellipse 25% 35% at 73% 35%, 
+      rgba(91, 56, 165, 0.5), 
+      transparent
+    );
+}
+.bulb{
+    width: 550px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.text span{
+    margin-right: 210px;
+}
+.regis{
+    margin-right: 340px;
+    margin-top: 20px;
+    width: 110px;
+    height: 40px;
+    background: linear-gradient(to right, #E735C8, #B138E9);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s; 
+}
+.text p{
+    font-size: 20px;
+    color: white;
+}
+.image{
+    width: 540px;
+    height: 500px;
+}
+.text{
+    margin-top: -130px;
+} 
+.bulb2{
+    width: 400px;
+    height: 400px;
+}
+.string{
+    margin-bottom: 50px;
+    margin-right: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+.text1{
+    margin-top: 100px;
+    width: 250px;
+    height: 100px;
+}
+
+.container2{
+    display: flex;
+}
+.star4{
+    width: 20px;
+    height: 20px;
+}
+
+.text2{
+    width: 400px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+.star3{
+    margin-bottom: 250px;
+    margin-right: 50px;
+    width: 20px;
+    height: 20px;
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 200px; 
+    left: 500px;
+    width: 730px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlayImage {
+    width: 50%; 
+    height: auto; 
+} 
+.svg1{
+    margin-right: 210px;
+    margin-top: 30px;
+    width: 250px;
+}
+
+@media screen and (min-width: 340px) and (max-width: 380px)  {
+            
+    .mainContainer {
+        height: 100%;
+        width: 100%;
+        background: radial-gradient(
+        ellipse 10% 9% at 18% 10%, 
+        rgba(79, 49, 145, 0.5), 
+        transparent
+        );
+        background-color: rgb(29, 19, 58);
+        display: flex;
+        flex-direction: column; 
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .topNav {
+        margin-top: 20px;
+        color: white;
+    }
+    .linked{
+        color: rgb(189, 47, 229);
+    }
+    .header{
+        font-size: 25px;
+        margin-right: 200px;
+    }
+    .topNav a {
+    display: none;
+    }
+    .divider {
+        width: 100%;
+        border: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.3); 
+    }
+    .register{
+        display: none;
+    }
+    .header2{
+        color: white;
+        font-size: 18px;
+        margin-left: 0px;
+    }
+    .bulb{
+       height: 100px;
+       width: 280px;
+    }
+    .star{
+        width: 10px;
+        height: 10px;
+    }
+    .image{
+        width:360px;
+        height: 400px;
+    }
+    .overlayImage {
+        width: 70%; 
+        height: auto;
+    }
+    .regis{
+        margin-right: 0px;
+        margin-top: 20px;
+        width: 110px;
+        height: 40px;
+        background: linear-gradient(to right, #E735C8, #B138E9);
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background 0.3s; 
+    }
+    .text p{
+        font-size: 15px;
+        color: white;
+    }
+    .imageOverlay {
+        position: absolute;
+        top: 450px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .svg1{
+        margin-right: 3px;
+    }
+    .text{
+        margin-top: 0px;
+    }
+    .text span{
+        margin-right: 0px;
+    }
+    .bulb{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .imageContainer{
+        display: contents;
+        background: radial-gradient(
+          ellipse 35% 35% at 73% 35%, 
+          rgba(91, 56, 165, 0.5), 
+          transparent
+        );
+    }
+    .star2{
+        margin-right: 0px;
+        width: 20px;
+    }
+    .star{
+        margin-right: 0px;
+    }
+
+    .bulb2{
+        width: 200px;
+        height: 200px;
+    }
+    .container2{
+        display: inline-block;
+    }
+    .star3{
+        margin-bottom: 100px;
+        margin-left: 40px;
+        width: 10px;
+        height: 10px;
+    }
+    .string{
+        margin-bottom: 0px;
+        margin-right: 30px;
+        width: 40px;
+        height: 40px;
+    }
+    
+}
